@@ -3,6 +3,7 @@ const RefEx=()=>{
     const count=useRef(0);
     function Increament(){
         count++
+        console.log("refcount="+count)
     }
     return (
         <div>
